@@ -1,0 +1,136 @@
+<?xml version="1.0" standalone="yes"?>
+<Route_Data>
+  <xs:schema id="Route_Data" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Route_Data" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="TravelWarrant">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="IDPutniNalog" type="xs:int" minOccurs="0" />
+                <xs:element name="Mjesto_Polaska" type="xs:string" minOccurs="0" />
+                <xs:element name="Mjesto_Putovanja" type="xs:string" minOccurs="0" />
+                <xs:element name="VozacID" type="xs:int" minOccurs="0" />
+                <xs:element name="VoziloID" type="xs:int" minOccurs="0" />
+                <xs:element name="Datum_Izdavanja" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="Datum_Predaje" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Drivers">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="IDVozac" type="xs:int" minOccurs="0" />
+                <xs:element name="Ime" type="xs:string" minOccurs="0" />
+                <xs:element name="Prezime" type="xs:string" minOccurs="0" />
+                <xs:element name="Broj_Mobitela" type="xs:string" minOccurs="0" />
+                <xs:element name="Broj_Vozacke_Dozvole" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Vehicles">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="IDVozilo" type="xs:int" minOccurs="0" />
+                <xs:element name="Tip" type="xs:string" minOccurs="0" />
+                <xs:element name="Marka" type="xs:string" minOccurs="0" />
+                <xs:element name="Godina_Proizvodnje" type="xs:int" minOccurs="0" />
+                <xs:element name="Inicijalno_Stanje_Kilometara" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <TravelWarrant>
+    <IDPutniNalog>1</IDPutniNalog>
+    <Mjesto_Polaska>Zagreb</Mjesto_Polaska>
+    <Mjesto_Putovanja>Madrid</Mjesto_Putovanja>
+    <VozacID>1</VozacID>
+    <VoziloID>1</VoziloID>
+    <Datum_Izdavanja>2020-03-10T00:00:00+01:00</Datum_Izdavanja>
+    <Datum_Predaje>2020-04-13T00:00:00+02:00</Datum_Predaje>
+  </TravelWarrant>
+  <TravelWarrant>
+    <IDPutniNalog>2</IDPutniNalog>
+    <Mjesto_Polaska>Zagreb</Mjesto_Polaska>
+    <Mjesto_Putovanja>Berlin</Mjesto_Putovanja>
+    <VozacID>1</VozacID>
+    <VoziloID>2</VoziloID>
+    <Datum_Izdavanja>2020-04-15T00:00:00+02:00</Datum_Izdavanja>
+    <Datum_Predaje>2020-05-12T00:00:00+02:00</Datum_Predaje>
+  </TravelWarrant>
+  <TravelWarrant>
+    <IDPutniNalog>3</IDPutniNalog>
+    <Mjesto_Polaska>Zagreb</Mjesto_Polaska>
+    <Mjesto_Putovanja>Frankfurt</Mjesto_Putovanja>
+    <VozacID>2</VozacID>
+    <VoziloID>1</VoziloID>
+    <Datum_Izdavanja>2020-05-18T00:00:00+02:00</Datum_Izdavanja>
+    <Datum_Predaje>2020-07-18T00:00:00+02:00</Datum_Predaje>
+  </TravelWarrant>
+  <Drivers>
+    <IDVozac>1</IDVozac>
+    <Ime>Pero</Ime>
+    <Prezime>Peric</Prezime>
+    <Broj_Mobitela>099 123 4567</Broj_Mobitela>
+    <Broj_Vozacke_Dozvole>02384596</Broj_Vozacke_Dozvole>
+  </Drivers>
+  <Drivers>
+    <IDVozac>2</IDVozac>
+    <Ime>Ivo</Ime>
+    <Prezime>Ivic</Prezime>
+    <Broj_Mobitela>099 456 7890</Broj_Mobitela>
+    <Broj_Vozacke_Dozvole>09234234</Broj_Vozacke_Dozvole>
+  </Drivers>
+  <Drivers>
+    <IDVozac>3</IDVozac>
+    <Ime>Ante</Ime>
+    <Prezime>Antic</Prezime>
+    <Broj_Mobitela>099 321 7654</Broj_Mobitela>
+    <Broj_Vozacke_Dozvole>03344596</Broj_Vozacke_Dozvole>
+  </Drivers>
+  <Vehicles>
+    <IDVozilo>1</IDVozilo>
+    <Tip>Citroen C1</Tip>
+    <Marka>Citroen</Marka>
+    <Godina_Proizvodnje>2017</Godina_Proizvodnje>
+    <Inicijalno_Stanje_Kilometara>500</Inicijalno_Stanje_Kilometara>
+  </Vehicles>
+  <Vehicles>
+    <IDVozilo>2</IDVozilo>
+    <Tip>Suzuki SX4 S-Cross</Tip>
+    <Marka>Suzuki</Marka>
+    <Godina_Proizvodnje>2018</Godina_Proizvodnje>
+    <Inicijalno_Stanje_Kilometara>600</Inicijalno_Stanje_Kilometara>
+  </Vehicles>
+  <Vehicles>
+    <IDVozilo>3</IDVozilo>
+    <Tip>BMW Series 3</Tip>
+    <Marka>BMW</Marka>
+    <Godina_Proizvodnje>2014</Godina_Proizvodnje>
+    <Inicijalno_Stanje_Kilometara>1000</Inicijalno_Stanje_Kilometara>
+  </Vehicles>
+  <Vehicles>
+    <IDVozilo>4</IDVozilo>
+    <Tip>Citroen C1</Tip>
+    <Marka>Citroen</Marka>
+    <Godina_Proizvodnje>2017</Godina_Proizvodnje>
+    <Inicijalno_Stanje_Kilometara>500</Inicijalno_Stanje_Kilometara>
+  </Vehicles>
+  <Vehicles>
+    <IDVozilo>5</IDVozilo>
+    <Tip>Suzuki SX4 S-Cross</Tip>
+    <Marka>Suzuki</Marka>
+    <Godina_Proizvodnje>2018</Godina_Proizvodnje>
+    <Inicijalno_Stanje_Kilometara>600</Inicijalno_Stanje_Kilometara>
+  </Vehicles>
+  <Vehicles>
+    <IDVozilo>6</IDVozilo>
+    <Tip>BMW Series 3</Tip>
+    <Marka>BMW</Marka>
+    <Godina_Proizvodnje>2014</Godina_Proizvodnje>
+    <Inicijalno_Stanje_Kilometara>1000</Inicijalno_Stanje_Kilometara>
+  </Vehicles>
+</Route_Data>

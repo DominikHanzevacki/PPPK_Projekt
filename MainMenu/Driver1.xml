@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Vozac>
+  <Table1>
+    <IDVozac>1</IDVozac>
+    <Ime>Pero</Ime>
+    <Prezime>Peric</Prezime>
+    <Broj_Mobitela>099 123 4567</Broj_Mobitela>
+    <Broj_Vozacke_Dozvole>02384596</Broj_Vozacke_Dozvole>
+  </Table1>
+</Vozac>
